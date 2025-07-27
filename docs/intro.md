@@ -23,7 +23,7 @@ Whether you're new to L&D or a seasoned practitioner, this field guide is design
 
 ### 🌱 **Core Framework**
 - **[Field Guide to Learning](./field-guide/why-field-guide)**: Understanding learning as both process and product
-- **[Building Learning Programs](./methodology/thinking-models)**: Practical methodology from sensing needs to shipping programs
+- **[Building Learning Programs](./field-guide/thinking-models-ld)**: Practical methodology from sensing needs to shipping programs
 
 ### 📚 **Real Examples**
 - **[Projects & Case Studies](./projects/coffee-and-t)**: Behind-the-scenes looks at what I've built
@@ -43,7 +43,7 @@ Your situation will be unique. This isn't "how to X" - it's what I've learned fr
 ## For Different Audiences
 
 ### **Brand New to L&D?**
-Start with [First Principles](./first-principles) → [Field Guide to Learning](./field-guide/learning-process) → [Sensing Needs](./methodology/sensing-needs)
+Start with [First Principles](./first-principles) → [Field Guide to Learning](./field-guide/thinking-models-learning) → [Defining Problems](./field-guide/phases/defining-framing)
 
 ### **Seasoned Practitioner?**
 Jump into [Building Learning Programs](./methodology/thinking-models) or browse [Projects](./projects/coffee-and-t) for real examples
