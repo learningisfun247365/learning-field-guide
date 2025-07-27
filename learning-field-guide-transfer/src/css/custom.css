@@ -1,0 +1,370 @@
+/**
+ * Custom CSS for Maria's Field Guide
+ * Natural, earthy, and uplifting color palette inspired by organic minimalism
+ */
+
+/* Import Lora font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+/* Earth-tone color palette - natural, calming, sophisticated */
+:root {
+  /* Primary colors - richer sage green with more contrast */
+  --ifm-color-primary: #5a7c5a;           /* Deeper sage green */
+  --ifm-color-primary-dark: #4d6b4d;       /* Rich forest sage */
+  --ifm-color-primary-darker: #466146;     /* Deep forest */
+  --ifm-color-primary-darkest: #3a513a;    /* Very deep forest */
+  --ifm-color-primary-light: #6b8d6b;      /* Medium sage */
+  --ifm-color-primary-lighter: #7c9e7c;    /* Light sage */
+  --ifm-color-primary-lightest: #9bb89b;   /* Soft sage */
+
+  /* Typography - sophisticated and readable */
+  --ifm-font-family-base: 'Inter', 'Avenir', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-heading: 'Lora', Georgia, serif;
+  --ifm-font-family-monospace: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  --ifm-code-font-size: 95%;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.5rem;
+  --ifm-h4-font-size: 1.25rem;
+  --ifm-line-height-base: 1.6;
+  --ifm-heading-line-height: 1.3;
+
+  /* Spacing & Layout - generous, breathing room */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-navbar-height: 4rem;
+  --ifm-global-radius: 8px;
+
+      /* Custom earth-tone palette - higher contrast */
+  --earth-warm-gold: #b8954d;             /* Richer honey gold */
+  --earth-sand: #c4b391;                  /* Deeper sand/beige */
+  --earth-cream: #fafaf8;                 /* Crisp cream background */
+  --earth-stone: #7a6f63;                 /* Darker stone gray */
+  --earth-charcoal: #2d2d2d;              /* Richer charcoal */
+
+  /* Semantic colors with earth tones - more contrast */
+  --field-guide-accent: var(--earth-warm-gold);      /* Rich, inviting accent */
+  --field-guide-secondary: var(--earth-sand);        /* Deeper secondary */
+  --field-guide-text-muted: #4a4a4a;                 /* Darker gray text */
+  --field-guide-bg-subtle: var(--earth-cream);       /* Clean background */
+  --field-guide-border: #d4c4a8;                     /* Stronger border */
+
+  /* Interactive states */
+  --ifm-hover-overlay: rgba(122, 148, 113, 0.08);    /* Sage hover */
+  --ifm-color-emphasis-300: var(--earth-sand);
+
+  /* Code highlighting with earth tones */
+  --docusaurus-highlighted-code-line-bg: rgba(122, 148, 113, 0.1);
+}
+
+/* Dark mode - sophisticated earth-tone dark palette */
+[data-theme='dark'] {
+  --ifm-color-primary: #a8c29f;           /* Lighter sage for contrast */
+  --ifm-color-primary-dark: #96b88c;      /* Medium sage */
+  --ifm-color-primary-darker: #8ab080;    /* Medium-light sage */
+  --ifm-color-primary-darkest: #6b8e62;   /* Deep sage */
+  --ifm-color-primary-light: #b4ccab;     /* Light sage */
+  --ifm-color-primary-lighter: #c0d4b8;   /* Pale sage */
+  --ifm-color-primary-lightest: #ccdcc5;  /* Softest sage */
+
+    /* Dark mode earth tones */
+  --earth-warm-gold: #d4b578;             /* Lighter warm gold */
+  --earth-sand: #d9c7a8;                  /* Warm sand */
+  --earth-cream: #2a2a2a;                 /* Dark background */
+  --earth-stone: #b8aea1;                 /* Light stone */
+  --earth-charcoal: #1a1a1a;              /* Deep charcoal */
+
+  --field-guide-accent: var(--earth-warm-gold);
+  --field-guide-secondary: var(--earth-stone);
+  --field-guide-text-muted: #a8a8a8;
+  --field-guide-bg-subtle: #242424;
+  --field-guide-border: #404040;
+
+  --docusaurus-highlighted-code-line-bg: rgba(168, 194, 159, 0.15);
+}
+
+/* Global heading styles with Lora font */
+h1, h2, h3, h4, h5, h6,
+.navbar__title,
+.hero__title {
+  font-family: var(--ifm-font-family-heading);
+}
+
+/* Enhanced navbar with organic feel */
+.navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px rgba(122, 148, 113, 0.08);
+  border-bottom: 1px solid var(--field-guide-border);
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(26, 26, 26, 0.95);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__title {
+  font-family: var(--ifm-font-family-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ifm-color-primary-dark);
+}
+
+.navbar__link {
+  font-weight: 500;
+  color: var(--field-guide-text-muted);
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Hero section with richer gradient */
+.hero {
+  background: linear-gradient(135deg,
+    white 0%,
+    var(--field-guide-bg-subtle) 50%,
+    rgba(250, 250, 248, 0.95) 100%);
+  border-bottom: 1px solid var(--field-guide-border);
+  padding: 4rem 0;
+}
+
+[data-theme='dark'] .hero {
+  background: linear-gradient(135deg,
+    var(--ifm-background-color) 0%,
+    var(--field-guide-bg-subtle) 50%,
+    var(--earth-charcoal) 100%);
+}
+
+.hero__title {
+  font-family: var(--ifm-font-family-heading);
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-bottom: none !important;
+}
+
+.hero__subtitle {
+  color: var(--field-guide-text-muted);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+/* Button styling with earth tones */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  border-radius: var(--ifm-global-radius);
+  transition: all 0.2s ease;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(122, 148, 113, 0.3);
+}
+
+.button--outline {
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  background: transparent;
+}
+
+.button--outline:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Content styling with organic touches */
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-family: var(--ifm-font-family-heading);
+  letter-spacing: -0.02em;
+  line-height: var(--ifm-heading-line-height);
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 600;
+}
+
+.markdown p, .markdown li {
+  color: #333333;
+  line-height: 1.7;
+}
+
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2,
+[data-theme='dark'] .markdown h3,
+[data-theme='dark'] .markdown h4,
+[data-theme='dark'] .markdown h5,
+[data-theme='dark'] .markdown h6 {
+  color: var(--earth-sand);
+}
+
+.markdown h1 {
+  border-bottom: 3px solid var(--ifm-color-primary-lightest);
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.markdown h2 {
+  color: var(--ifm-color-primary-dark);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.markdown h2::before {
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 60%;
+  background: var(--field-guide-accent);
+  border-radius: 2px;
+}
+
+/* Enhanced sidebar with darker styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--field-guide-border);
+  background: var(--ifm-color-primary-darkest);
+  color: white;
+}
+
+.menu__link {
+  border-radius: var(--ifm-global-radius);
+  margin: 2px 0;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.menu__link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.menu__link--active {
+  background: linear-gradient(135deg,
+    var(--field-guide-accent) 0%,
+    rgba(184, 149, 77, 0.3) 100%);
+  color: white;
+  font-weight: 600;
+  border-left: 3px solid var(--field-guide-accent);
+}
+
+.menu__list-item-collapsible .menu__link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.menu__caret {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Sidebar header styling */
+.theme-doc-sidebar-container .menu__list .menu__list-item:first-child .menu__link {
+  background: rgba(184, 149, 77, 0.2);
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-left: 3px solid var(--field-guide-accent);
+}
+
+/* Homepage features with earth-tone cards */
+.col {
+  margin-bottom: 2rem;
+}
+
+.col h3 {
+  font-family: var(--ifm-font-family-heading);
+  color: var(--ifm-color-primary-dark);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.col p {
+  color: #333333;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.col a {
+  color: var(--field-guide-accent);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.col a:hover {
+  color: var(--field-guide-accent);
+  border-bottom-color: var(--field-guide-accent);
+}
+
+/* Footer with earth-tone styling */
+.footer {
+  background: linear-gradient(135deg,
+    var(--ifm-color-primary-darkest) 0%,
+    var(--earth-charcoal) 100%);
+  color: var(--earth-cream);
+}
+
+.footer__link-item {
+  color: var(--earth-sand);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--earth-cream);
+}
+
+.footer__copyright {
+  font-style: italic;
+  color: var(--earth-sand);
+  font-size: 0.9rem;
+}
+
+/* Custom accent elements */
+.badge--accent {
+  background: linear-gradient(135deg, var(--field-guide-accent) 0%, var(--earth-warm-gold) 100%);
+  color: white;
+  font-weight: 500;
+}
+
+/* Table of contents with organic styling */
+.table-of-contents__link {
+  color: var(--field-guide-text-muted);
+  transition: color 0.2s ease;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .markdown h2::before {
+    display: none;
+  }
+}
