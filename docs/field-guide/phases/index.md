@@ -23,35 +23,35 @@ Building effective learning programs isn't linear, but having a framework helps 
 - Define success criteria
 - Get stakeholder alignment
 
-### 2. 🏗️ [Prototype](phases/prototype)
+### 2. 🏗️ [Prototype](./prototype)
 **Define shape, not content**
 - Research internal and external approaches
 - Create learning structure and flow
 - Build rough wireframes of the experience
 - Test the concept before building content
 
-### 3. 🔨 [Build](phases/build)
+### 3. 🔨 [Build](./build)
 **Use AI + modularity to go fast**
 - Design sprints with SMEs for high-context knowledge
 - Leverage AI for content creation and templates
 - Build modular, reusable components
 - Create MVP ready for feedback
 
-### 4. 🧪 [Test](phases/test)
+### 4. 🧪 [Test](./test)
 **Pilot, pulse, listen hard**
 - Run pilot cohorts or sandbox versions
 - Collect fast feedback through multiple channels
 - Monitor drop-off points and confusion
 - Document what works and what doesn't
 
-### 5. 🔄 [Iterate](phases/iterate)
+### 5. 🔄 [Iterate](./iterate)
 **Adapt without restarting**
 - Analyze feedback and usage patterns
 - Make targeted improvements
 - Refine without rebuilding from scratch
 - Plan for ongoing evolution
 
-### 6. 🚀 [Deploy](phases/deploy)
+### 6. 🚀 [Deploy](./deploy)
 **Ship + embed into flow of work**
 - Launch through existing workflows
 - Build in reinforcement and reminders
@@ -83,4 +83,4 @@ This isn't a waterfall process - it's a **field guide approach**. Each phase giv
 
 ---
 
-*Ready to dive deeper? Start with [Defining & Framing](phases/defining-framing) or jump to the phase that's most relevant to where you are right now.*
+*Ready to dive deeper? Start with [Defining & Framing](./defining-framing) or jump to the phase that's most relevant to where you are right now.*
