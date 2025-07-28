@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/phases/build",
+  "title": "Build – Use AI + Modularity to Go Fast",
+  "description": "How to build learning content efficiently with AI assistance",
+  "source": "@site/docs/field-guide/phases/build.md",
+  "sourceDirName": "field-guide/phases",
+  "slug": "/field-guide/phases/build",
+  "permalink": "/docs/field-guide/phases/build",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/phases/build.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "phases",
+      "permalink": "/docs/tags/phases"
+    },
+    {
+      "inline": true,
+      "label": "content-creation",
+      "permalink": "/docs/tags/content-creation"
+    },
+    {
+      "inline": true,
+      "label": "ai-tools",
+      "permalink": "/docs/tags/ai-tools"
+    },
+    {
+      "inline": true,
+      "label": "modularity",
+      "permalink": "/docs/tags/modularity"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build – Use AI + Modularity to Go Fast",
+    "description": "How to build learning content efficiently with AI assistance",
+    "tags": [
+      "phases",
+      "content-creation",
+      "ai-tools",
+      "modularity"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Prototype – Define Shape, Not Content",
+    "permalink": "/docs/field-guide/phases/prototype"
+  },
+  "next": {
+    "title": "Test – Pilot, Pulse, Listen Hard",
+    "permalink": "/docs/field-guide/phases/test"
+  }
+}

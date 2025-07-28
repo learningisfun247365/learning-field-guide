@@ -1,0 +1,58 @@
+{
+  "id": "first-principles",
+  "title": "First Principles",
+  "description": "Core beliefs that guide my work and learning",
+  "source": "@site/docs/first-principles.md",
+  "sourceDirName": ".",
+  "slug": "/first-principles",
+  "permalink": "/docs/first-principles",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/first-principles.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "personal",
+      "permalink": "/docs/tags/personal"
+    },
+    {
+      "inline": true,
+      "label": "philosophy",
+      "permalink": "/docs/tags/philosophy"
+    },
+    {
+      "inline": true,
+      "label": "principles",
+      "permalink": "/docs/tags/principles"
+    },
+    {
+      "inline": true,
+      "label": "foundation",
+      "permalink": "/docs/tags/foundation"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "First Principles",
+    "description": "Core beliefs that guide my work and learning",
+    "sidebar_position": 2,
+    "tags": [
+      "personal",
+      "philosophy",
+      "principles",
+      "foundation"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Welcome to Maria's Field Guide",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "About Me",
+    "permalink": "/docs/about-me"
+  }
+}

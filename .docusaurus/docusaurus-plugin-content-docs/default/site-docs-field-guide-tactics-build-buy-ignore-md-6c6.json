@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/tactics/build-buy-ignore",
+  "title": "When to Build, When to Buy, When to Ignore",
+  "description": "Decision framework for learning solution investments",
+  "source": "@site/docs/field-guide/tactics/build-buy-ignore.md",
+  "sourceDirName": "field-guide/tactics",
+  "slug": "/field-guide/tactics/build-buy-ignore",
+  "permalink": "/docs/field-guide/tactics/build-buy-ignore",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/tactics/build-buy-ignore.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "tactics",
+      "permalink": "/docs/tags/tactics"
+    },
+    {
+      "inline": true,
+      "label": "decision-framework",
+      "permalink": "/docs/tags/decision-framework"
+    },
+    {
+      "inline": true,
+      "label": "strategy",
+      "permalink": "/docs/tags/strategy"
+    },
+    {
+      "inline": true,
+      "label": "resource-allocation",
+      "permalink": "/docs/tags/resource-allocation"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "When to Build, When to Buy, When to Ignore",
+    "description": "Decision framework for learning solution investments",
+    "tags": [
+      "tactics",
+      "decision-framework",
+      "strategy",
+      "resource-allocation"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Building Reusable Scaffolding for Contextual Layers",
+    "permalink": "/docs/field-guide/tactics/reusable-scaffolding"
+  },
+  "next": {
+    "title": "Coffee & T Project",
+    "permalink": "/docs/projects/coffee-and-t"
+  }
+}

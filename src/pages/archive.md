@@ -10,7 +10,7 @@
 - **[About Me](/docs/about-me)** - My background, philosophy, and approach to L&D
 
 ### 🧭 Field Guide to Learning
-- **[Field Guide to Learning Overview](/docs/field-guide/index)** - Complete methodology and framework introduction
+- **[Field Guide to Learning Overview](/docs/field-guide/)** - Complete methodology and framework introduction
 
 #### Core Concepts
 - **[Why a Field Guide?](/docs/field-guide/why-field-guide)** - Philosophy behind field guides vs. manuals
@@ -18,7 +18,7 @@
 - **[Thinking Models for L&D](/docs/field-guide/thinking-models-ld)** - Frameworks for practitioners
 
 #### Phases of Work
-- **[Phases Overview](/docs/field-guide/phases/index)** - Systematic approach to building learning programs
+- **[Phases Overview](/docs/field-guide/phases/)** - Systematic approach to building learning programs
 - **[Defining & Framing the Problem](/docs/field-guide/phases/defining-framing)** - Problem identification and scoping
 - **[Prototype](/docs/field-guide/phases/prototype)** - Define shape, not content
 - **[Build](/docs/field-guide/phases/build)** - Use AI + modularity to go fast
@@ -58,11 +58,11 @@
 
 ### Methodology & Frameworks
 *Frameworks, processes, systematic approaches*
-- **[Field Guide to Learning Overview](/docs/field-guide/index)** - Complete methodology and framework introduction
+- **[Field Guide to Learning Overview](/docs/field-guide/)** - Complete methodology and framework introduction
   - *Tags: methodology, field-guide, overview, learning-framework*
 - **[Why a Field Guide?](/docs/field-guide/why-field-guide)** - Understanding the field guide approach to learning and development
   - *Tags: methodology, field-guide, learning-philosophy, frameworks*
-- **[Phases Overview](/docs/field-guide/phases/index)** - Systematic approach to building learning programs
+- **[Phases Overview](/docs/field-guide/phases/)** - Systematic approach to building learning programs
   - *Tags: methodology, phases, workflow, project-management*
 - **[Thinking Models for Learning](/docs/field-guide/thinking-models-learning)** - Mental frameworks for learning
 - **[Thinking Models for L&D](/docs/field-guide/thinking-models-ld)** - Approaches for learning & development
@@ -89,8 +89,8 @@
 *Most recently created or updated content (July 2025)*
 
 ### July 27, 2025
-- **[Field Guide to Learning Overview](/docs/field-guide/index)** - Complete methodology and framework introduction
-- **[Phases Overview](/docs/field-guide/phases/index)** - New comprehensive framework for building learning programs
+- **[Field Guide to Learning Overview](/docs/field-guide/)** - Complete methodology and framework introduction
+- **[Phases Overview](/docs/field-guide/phases/)** - New comprehensive framework for building learning programs
 - **[Using AI as a Builder + Archivist](/docs/field-guide/tactics/ai-builder-archivist)** - New tactical guide for AI-powered content creation
 - **[Welcome to Maria's Field Guide](/docs/intro)** - Updated introduction and navigation guide
 - **[First Principles](/docs/first-principles)** - Core learning philosophy and beliefs

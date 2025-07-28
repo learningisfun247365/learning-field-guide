@@ -1,0 +1,58 @@
+{
+  "id": "projects/coffee-and-t",
+  "title": "Coffee & T Project",
+  "description": "Behind-the-scenes breakdown of building a learning community",
+  "source": "@site/docs/projects/coffee-and-t.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/coffee-and-t",
+  "permalink": "/docs/projects/coffee-and-t",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/projects/coffee-and-t.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "case-study",
+      "permalink": "/docs/tags/case-study"
+    },
+    {
+      "inline": true,
+      "label": "community",
+      "permalink": "/docs/tags/community"
+    },
+    {
+      "inline": true,
+      "label": "learning-program",
+      "permalink": "/docs/tags/learning-program"
+    },
+    {
+      "inline": true,
+      "label": "project-management",
+      "permalink": "/docs/tags/project-management"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Coffee & T Project",
+    "description": "Behind-the-scenes breakdown of building a learning community",
+    "sidebar_position": 1,
+    "tags": [
+      "case-study",
+      "community",
+      "learning-program",
+      "project-management"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "When to Build, When to Buy, When to Ignore",
+    "permalink": "/docs/field-guide/tactics/build-buy-ignore"
+  },
+  "next": {
+    "title": "Learning Village",
+    "permalink": "/docs/projects/learning-village"
+  }
+}

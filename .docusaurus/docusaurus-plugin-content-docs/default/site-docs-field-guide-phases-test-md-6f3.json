@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/phases/test",
+  "title": "Test – Pilot, Pulse, Listen Hard",
+  "description": "What works in the wild? What needs rethinking?",
+  "source": "@site/docs/field-guide/phases/test.md",
+  "sourceDirName": "field-guide/phases",
+  "slug": "/field-guide/phases/test",
+  "permalink": "/docs/field-guide/phases/test",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/phases/test.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "phases",
+      "permalink": "/docs/tags/phases"
+    },
+    {
+      "inline": true,
+      "label": "testing",
+      "permalink": "/docs/tags/testing"
+    },
+    {
+      "inline": true,
+      "label": "feedback",
+      "permalink": "/docs/tags/feedback"
+    },
+    {
+      "inline": true,
+      "label": "validation",
+      "permalink": "/docs/tags/validation"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Test – Pilot, Pulse, Listen Hard",
+    "description": "What works in the wild? What needs rethinking?",
+    "tags": [
+      "phases",
+      "testing",
+      "feedback",
+      "validation"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Build – Use AI + Modularity to Go Fast",
+    "permalink": "/docs/field-guide/phases/build"
+  },
+  "next": {
+    "title": "Iterate – Adapt Without Restarting",
+    "permalink": "/docs/field-guide/phases/iterate"
+  }
+}

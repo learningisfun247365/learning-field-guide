@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/why-field-guide",
+  "title": "Why a Field Guide?",
+  "description": "Understanding the field guide approach to learning and development",
+  "source": "@site/docs/field-guide/why-field-guide.md",
+  "sourceDirName": "field-guide",
+  "slug": "/field-guide/why-field-guide",
+  "permalink": "/docs/field-guide/why-field-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/why-field-guide.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "methodology",
+      "permalink": "/docs/tags/methodology"
+    },
+    {
+      "inline": true,
+      "label": "field-guide",
+      "permalink": "/docs/tags/field-guide"
+    },
+    {
+      "inline": true,
+      "label": "learning-philosophy",
+      "permalink": "/docs/tags/learning-philosophy"
+    },
+    {
+      "inline": true,
+      "label": "frameworks",
+      "permalink": "/docs/tags/frameworks"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Why a Field Guide?",
+    "description": "Understanding the field guide approach to learning and development",
+    "tags": [
+      "methodology",
+      "field-guide",
+      "learning-philosophy",
+      "frameworks"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Field Guide to Learning",
+    "permalink": "/docs/field-guide/"
+  },
+  "next": {
+    "title": "Thinking Models for Approaching Learning",
+    "permalink": "/docs/field-guide/thinking-models-learning"
+  }
+}

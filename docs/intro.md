@@ -46,7 +46,7 @@ Your situation will be unique. This isn't "how to X" - it's what I've learned fr
 Start with [First Principles](./first-principles) → [Field Guide to Learning](./field-guide/thinking-models-learning) → [Defining Problems](./field-guide/phases/defining-framing)
 
 ### **Seasoned Practitioner?**
-Jump into [Building Learning Programs](./methodology/thinking-models) or browse [Projects](./projects/coffee-and-t) for real examples
+Jump into [Building Learning Programs](./field-guide/thinking-models-ld) or browse [Projects](./projects/coffee-and-t) for real examples
 
 ### **Curious About Process?**
 Check out [What I'm Working On Now](/now) to see learning in action

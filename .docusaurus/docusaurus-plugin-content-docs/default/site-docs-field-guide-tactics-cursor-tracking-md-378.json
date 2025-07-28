@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/tactics/cursor-tracking",
+  "title": "How Cursor Tracked Decisions for You",
+  "description": "Specific examples of how AI coding assistants maintain decision history",
+  "source": "@site/docs/field-guide/tactics/cursor-tracking.md",
+  "sourceDirName": "field-guide/tactics",
+  "slug": "/field-guide/tactics/cursor-tracking",
+  "permalink": "/docs/field-guide/tactics/cursor-tracking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/tactics/cursor-tracking.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "tactics",
+      "permalink": "/docs/tags/tactics"
+    },
+    {
+      "inline": true,
+      "label": "ai-tools",
+      "permalink": "/docs/tags/ai-tools"
+    },
+    {
+      "inline": true,
+      "label": "decision-tracking",
+      "permalink": "/docs/tags/decision-tracking"
+    },
+    {
+      "inline": true,
+      "label": "documentation",
+      "permalink": "/docs/tags/documentation"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "How Cursor Tracked Decisions for You",
+    "description": "Specific examples of how AI coding assistants maintain decision history",
+    "tags": [
+      "tactics",
+      "ai-tools",
+      "decision-tracking",
+      "documentation"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Using AI as a Builder + Archivist",
+    "permalink": "/docs/field-guide/tactics/ai-builder-archivist"
+  },
+  "next": {
+    "title": "Choosing the Right Format (Playbooks, Toolkits, Challenges, etc.)",
+    "permalink": "/docs/field-guide/tactics/choosing-format"
+  }
+}

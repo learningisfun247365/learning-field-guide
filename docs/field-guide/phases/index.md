@@ -16,7 +16,7 @@ Building effective learning programs isn't linear, but having a framework helps 
 
 ## The Six Phases
 
-### 1. 🎯 [Defining & Framing](phases/defining-framing)
+### 1. 🎯 [Defining & Framing](./defining-framing)
 **What's the real problem we're solving?**
 - Sense the need and validate it's a learning problem
 - Frame the challenge clearly

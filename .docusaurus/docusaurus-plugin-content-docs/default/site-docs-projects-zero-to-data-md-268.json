@@ -1,0 +1,58 @@
+{
+  "id": "projects/zero-to-data",
+  "title": "Zero to Data",
+  "description": "Data literacy program development and implementation strategy",
+  "source": "@site/docs/projects/zero-to-data.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/zero-to-data",
+  "permalink": "/docs/projects/zero-to-data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/projects/zero-to-data.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "case-study",
+      "permalink": "/docs/tags/case-study"
+    },
+    {
+      "inline": true,
+      "label": "data-literacy",
+      "permalink": "/docs/tags/data-literacy"
+    },
+    {
+      "inline": true,
+      "label": "program-design",
+      "permalink": "/docs/tags/program-design"
+    },
+    {
+      "inline": true,
+      "label": "upskilling",
+      "permalink": "/docs/tags/upskilling"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Zero to Data",
+    "description": "Data literacy program development and implementation strategy",
+    "sidebar_position": 3,
+    "tags": [
+      "case-study",
+      "data-literacy",
+      "program-design",
+      "upskilling"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Learning Village",
+    "permalink": "/docs/projects/learning-village"
+  },
+  "next": {
+    "title": "Library",
+    "permalink": "/docs/library"
+  }
+}

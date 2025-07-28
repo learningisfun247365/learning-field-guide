@@ -1,0 +1,56 @@
+{
+  "id": "field-guide/tactics/reusable-scaffolding",
+  "title": "Building Reusable Scaffolding for Contextual Layers",
+  "description": "Creating modular, reusable learning content structures",
+  "source": "@site/docs/field-guide/tactics/reusable-scaffolding.md",
+  "sourceDirName": "field-guide/tactics",
+  "slug": "/field-guide/tactics/reusable-scaffolding",
+  "permalink": "/docs/field-guide/tactics/reusable-scaffolding",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/field-guide/tactics/reusable-scaffolding.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "tactics",
+      "permalink": "/docs/tags/tactics"
+    },
+    {
+      "inline": true,
+      "label": "modularity",
+      "permalink": "/docs/tags/modularity"
+    },
+    {
+      "inline": true,
+      "label": "content-architecture",
+      "permalink": "/docs/tags/content-architecture"
+    },
+    {
+      "inline": true,
+      "label": "scalability",
+      "permalink": "/docs/tags/scalability"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Building Reusable Scaffolding for Contextual Layers",
+    "description": "Creating modular, reusable learning content structures",
+    "tags": [
+      "tactics",
+      "modularity",
+      "content-architecture",
+      "scalability"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Choosing the Right Format (Playbooks, Toolkits, Challenges, etc.)",
+    "permalink": "/docs/field-guide/tactics/choosing-format"
+  },
+  "next": {
+    "title": "When to Build, When to Buy, When to Ignore",
+    "permalink": "/docs/field-guide/tactics/build-buy-ignore"
+  }
+}

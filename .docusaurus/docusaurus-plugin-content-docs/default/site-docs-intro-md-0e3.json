@@ -1,0 +1,48 @@
+{
+  "id": "intro",
+  "title": "Welcome to Maria's Field Guide",
+  "description": "Introduction and guide to navigating this learning resource",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/intro.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "getting-started",
+      "permalink": "/docs/tags/getting-started"
+    },
+    {
+      "inline": true,
+      "label": "field-guide",
+      "permalink": "/docs/tags/field-guide"
+    },
+    {
+      "inline": true,
+      "label": "learning-in-public",
+      "permalink": "/docs/tags/learning-in-public"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Welcome to Maria's Field Guide",
+    "description": "Introduction and guide to navigating this learning resource",
+    "sidebar_position": 1,
+    "tags": [
+      "getting-started",
+      "field-guide",
+      "learning-in-public"
+    ],
+    "date": "2025-07-27T00:00:00.000Z",
+    "last_updated": "2025-07-27T00:00:00.000Z"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "next": {
+    "title": "First Principles",
+    "permalink": "/docs/first-principles"
+  }
+}

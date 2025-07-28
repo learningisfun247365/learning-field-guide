@@ -1,0 +1,148 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "about-me",
+              "path": "/docs/about-me",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/index",
+              "path": "/docs/field-guide/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/build",
+              "path": "/docs/field-guide/phases/build",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/defining-framing",
+              "path": "/docs/field-guide/phases/defining-framing",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/deploy",
+              "path": "/docs/field-guide/phases/deploy",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/index",
+              "path": "/docs/field-guide/phases/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/iterate",
+              "path": "/docs/field-guide/phases/iterate",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/prototype",
+              "path": "/docs/field-guide/phases/prototype",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/phases/test",
+              "path": "/docs/field-guide/phases/test",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/ai-builder-archivist",
+              "path": "/docs/field-guide/tactics/ai-builder-archivist",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/build-buy-ignore",
+              "path": "/docs/field-guide/tactics/build-buy-ignore",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/choosing-format",
+              "path": "/docs/field-guide/tactics/choosing-format",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/cursor-tracking",
+              "path": "/docs/field-guide/tactics/cursor-tracking",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/designing-with-smes",
+              "path": "/docs/field-guide/tactics/designing-with-smes",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/tactics/reusable-scaffolding",
+              "path": "/docs/field-guide/tactics/reusable-scaffolding",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/thinking-models-ld",
+              "path": "/docs/field-guide/thinking-models-ld",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/thinking-models-learning",
+              "path": "/docs/field-guide/thinking-models-learning",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "field-guide/why-field-guide",
+              "path": "/docs/field-guide/why-field-guide",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "first-principles",
+              "path": "/docs/first-principles",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "library",
+              "path": "/docs/library",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "projects/coffee-and-t",
+              "path": "/docs/projects/coffee-and-t",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "projects/learning-village",
+              "path": "/docs/projects/learning-village",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "projects/zero-to-data",
+              "path": "/docs/projects/zero-to-data",
+              "sidebar": "fieldGuideSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "fieldGuideSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

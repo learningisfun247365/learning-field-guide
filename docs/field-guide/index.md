@@ -20,7 +20,7 @@ This section contains the **core methodology** I've developed for building learn
 - **[Thinking Models for L&D](thinking-models-ld)** - Frameworks for L&D practitioners
 
 ### 🗺️ **The Process: Phases of Work**
-- **[Phases Overview](./phases/index)** - Complete framework from idea to implementation
+- **[Phases Overview](./phases/)** - Complete framework from idea to implementation
 - **Six detailed phases:** Defining, Prototyping, Building, Testing, Iterating, Deploying
 
 ### 🛠️ **Practical Tools: Levers & Tactics**
@@ -35,7 +35,7 @@ This section contains the **core methodology** I've developed for building learn
 Start with **[Why a Field Guide?](why-field-guide)** to understand the philosophy, then explore **[Thinking Models for Learning](thinking-models-learning)** to build your foundation.
 
 ### 📈 **If you're building a program:**
-Jump straight to **[Phases Overview](./phases/index)** to see the complete process, then dive into the specific phase where you are now.
+Jump straight to **[Phases Overview](./phases/)** to see the complete process, then dive into the specific phase where you are now.
 
 ### 🔧 **If you need specific techniques:**
 Browse the **Levers & Tactics** section for targeted tools and approaches you can apply immediately.
