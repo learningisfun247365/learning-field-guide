@@ -61,19 +61,36 @@ const config: Config = {
       title: "Maria's Field Guide",
       items: [
         {
+          label: 'Start Here',
+          position: 'left',
+          items: [
+            {to: '/docs/intro', label: 'Intro'},
+            {to: '/docs/about-me', label: 'About Me'},
+            {to: '/docs/first-principles', label: 'First Principles'},
+          ],
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'fieldGuideSidebar',
           position: 'left',
-          label: 'Field Guide',
+          label: 'Learning Field Guide',
         },
-        {to: '/now', label: 'Now', position: 'left'},
-        {to: '/docs/about-me', label: 'About Me', position: 'left'},
-        {to: '/archive', label: 'Index', position: 'left'},
         {
-          href: 'https://github.com/learningisfun247365/learning-field-guide',
-          label: 'GitHub',
-          position: 'right',
+          label: 'Digital Garden',
+          position: 'left',
+          items: [
+            {to: '/docs/learning', label: 'Learning Journal'},
+            {to: '/docs/experiments', label: 'Experiments'},
+            {to: '/docs/reflections', label: 'Reflections'},
+            {to: '/docs/topics', label: 'Topics'},
+            {to: '/docs/connections', label: 'Connections'},
+            {to: '/docs/questions', label: 'Questions'},
+            {to: '/docs/influences', label: 'Influences'},
+          ],
         },
+        {to: '/docs/projects/coffee-and-t', label: 'Projects', position: 'left'},
+        {to: '/docs/library', label: 'Library', position: 'left'},
+        {href: 'https://github.com/learningisfun247365/learning-field-guide', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {

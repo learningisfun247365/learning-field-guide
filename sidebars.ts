@@ -60,6 +60,54 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'library',
+    {
+      type: 'category',
+      label: 'Digital Garden',
+      items: [
+        {
+          type: 'category',
+          label: 'Learning Journal',
+          link: { type: 'doc', id: 'learning/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Experiments',
+          link: { type: 'doc', id: 'experiments/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Reflections',
+          link: { type: 'doc', id: 'reflections/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Topics',
+          link: { type: 'doc', id: 'topics/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Connections',
+          link: { type: 'doc', id: 'connections/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Questions',
+          link: { type: 'doc', id: 'questions/index' },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Influences',
+          link: { type: 'doc', id: 'influences/index' },
+          items: [],
+        },
+      ],
+    },
   ],
 };
 
