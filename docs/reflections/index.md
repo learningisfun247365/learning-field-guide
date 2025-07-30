@@ -1,5 +1,5 @@
 ---
-id: reflections/index
+id: reflections
 title: Reflections
 ---
 # Reflections
