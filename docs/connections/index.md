@@ -1,5 +1,5 @@
 ---
-id: connections
+id: index
 title: Connections
 ---
 # Connections

@@ -1,5 +1,5 @@
 ---
-id: learning
+id: index
 title: Learning Journal
 ---
 # Learning Journal

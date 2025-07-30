@@ -1,5 +1,5 @@
 ---
-id: topics
+id: index
 title: Topics
 ---
 # Topics

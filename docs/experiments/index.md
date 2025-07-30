@@ -1,5 +1,5 @@
 ---
-id: experiments
+id: index
 title: Experiments
 ---
 # Experiments

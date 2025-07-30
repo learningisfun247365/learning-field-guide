@@ -1,5 +1,5 @@
 ---
-id: influences
+id: index
 title: Influences
 ---
 # Influences

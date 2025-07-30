@@ -1,5 +1,5 @@
 ---
-id: questions
+id: index
 title: Questions
 ---
 # Questions
