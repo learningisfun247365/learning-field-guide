@@ -1,7 +1,7 @@
 {
   "id": "library",
   "title": "Library",
-  "description": "Books, films, and resources that shape my thinking about learning",
+  "description": "Books, films, resources, and influences that shape my thinking about learning, creativity, and more",
   "source": "@site/docs/library.md",
   "sourceDirName": ".",
   "slug": "/library",
@@ -35,7 +35,7 @@
   "sidebarPosition": 7,
   "frontMatter": {
     "title": "Library",
-    "description": "Books, films, and resources that shape my thinking about learning",
+    "description": "Books, films, resources, and influences that shape my thinking about learning, creativity, and more",
     "sidebar_position": 7,
     "tags": [
       "resources",
@@ -50,5 +50,9 @@
   "previous": {
     "title": "Zero to Data",
     "permalink": "/docs/projects/zero-to-data"
+  },
+  "next": {
+    "title": "Learning Journal",
+    "permalink": "/docs/learning/"
   }
 }

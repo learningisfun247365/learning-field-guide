@@ -1,0 +1,27 @@
+{
+  "id": "topics/index",
+  "title": "Topics",
+  "description": "Deep dives into subjects that fascinate you.",
+  "source": "@site/docs/topics/index.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/",
+  "permalink": "/docs/topics/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/topics/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Topics"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Reflections",
+    "permalink": "/docs/reflections/"
+  },
+  "next": {
+    "title": "Connections",
+    "permalink": "/docs/connections/"
+  }
+}

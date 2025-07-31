@@ -1,0 +1,23 @@
+{
+  "id": "influences/index",
+  "title": "Influences",
+  "description": "People, ideas, and experiences shaping your thinking.",
+  "source": "@site/docs/influences/index.md",
+  "sourceDirName": "influences",
+  "slug": "/influences/",
+  "permalink": "/docs/influences/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/influences/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Influences"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Questions",
+    "permalink": "/docs/questions/"
+  }
+}

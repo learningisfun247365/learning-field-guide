@@ -58,17 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/field-guide-social-card.jpg',
     navbar: {
-      title: "Maria's Field Guide",
+      title: "Maria's Digital Garden",
       items: [
-        {
-          label: 'Start Here',
-          position: 'left',
-          items: [
-            {to: '/docs/intro', label: 'Intro'},
-            {to: '/docs/about-me', label: 'About Me'},
-            {to: '/docs/first-principles', label: 'First Principles'},
-          ],
-        },
+        {to: '/docs/about-me', label: 'About Me', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'fieldGuideSidebar',
@@ -88,8 +80,6 @@ const config: Config = {
             {to: '/docs/influences', label: 'Influences'},
           ],
         },
-        {to: '/docs/projects/coffee-and-t', label: 'Projects', position: 'left'},
-        {to: '/docs/library', label: 'Library', position: 'left'},
         {href: 'https://github.com/learningisfun247365/learning-field-guide', label: 'GitHub', position: 'right'},
       ],
     },

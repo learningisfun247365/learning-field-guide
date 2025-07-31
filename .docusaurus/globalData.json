@@ -16,6 +16,16 @@
               "sidebar": "fieldGuideSidebar"
             },
             {
+              "id": "connections/index",
+              "path": "/docs/connections/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "experiments/index",
+              "path": "/docs/experiments/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
               "id": "field-guide/index",
               "path": "/docs/field-guide/",
               "sidebar": "fieldGuideSidebar"
@@ -106,8 +116,18 @@
               "sidebar": "fieldGuideSidebar"
             },
             {
+              "id": "influences/index",
+              "path": "/docs/influences/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "learning/index",
+              "path": "/docs/learning/",
               "sidebar": "fieldGuideSidebar"
             },
             {
@@ -128,6 +148,21 @@
             {
               "id": "projects/zero-to-data",
               "path": "/docs/projects/zero-to-data",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "questions/index",
+              "path": "/docs/questions/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "reflections/index",
+              "path": "/docs/reflections/",
+              "sidebar": "fieldGuideSidebar"
+            },
+            {
+              "id": "topics/index",
+              "path": "/docs/topics/",
               "sidebar": "fieldGuideSidebar"
             }
           ],

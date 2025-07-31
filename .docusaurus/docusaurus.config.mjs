@@ -59,28 +59,52 @@ export default {
   "themeConfig": {
     "image": "img/field-guide-social-card.jpg",
     "navbar": {
-      "title": "Maria's Field Guide",
+      "title": "Maria's Digital Garden",
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "fieldGuideSidebar",
-          "position": "left",
-          "label": "Field Guide"
-        },
-        {
-          "to": "/now",
-          "label": "Now",
-          "position": "left"
-        },
         {
           "to": "/docs/about-me",
           "label": "About Me",
           "position": "left"
         },
         {
-          "to": "/archive",
-          "label": "Index",
-          "position": "left"
+          "type": "docSidebar",
+          "sidebarId": "fieldGuideSidebar",
+          "position": "left",
+          "label": "Learning Field Guide"
+        },
+        {
+          "label": "Digital Garden",
+          "position": "left",
+          "items": [
+            {
+              "to": "/docs/learning",
+              "label": "Learning Journal"
+            },
+            {
+              "to": "/docs/experiments",
+              "label": "Experiments"
+            },
+            {
+              "to": "/docs/reflections",
+              "label": "Reflections"
+            },
+            {
+              "to": "/docs/topics",
+              "label": "Topics"
+            },
+            {
+              "to": "/docs/connections",
+              "label": "Connections"
+            },
+            {
+              "to": "/docs/questions",
+              "label": "Questions"
+            },
+            {
+              "to": "/docs/influences",
+              "label": "Influences"
+            }
+          ]
         },
         {
           "href": "https://github.com/learningisfun247365/learning-field-guide",

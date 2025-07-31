@@ -1,0 +1,27 @@
+{
+  "id": "reflections/index",
+  "title": "Reflections",
+  "description": "Insights, connections, and personal reflections on learning.",
+  "source": "@site/docs/reflections/index.md",
+  "sourceDirName": "reflections",
+  "slug": "/reflections/",
+  "permalink": "/docs/reflections/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/reflections/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Reflections"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Experiments",
+    "permalink": "/docs/experiments/"
+  },
+  "next": {
+    "title": "Topics",
+    "permalink": "/docs/topics/"
+  }
+}

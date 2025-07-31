@@ -1,0 +1,27 @@
+{
+  "id": "questions/index",
+  "title": "Questions",
+  "description": "Open loops and questions you're exploring.",
+  "source": "@site/docs/questions/index.md",
+  "sourceDirName": "questions",
+  "slug": "/questions/",
+  "permalink": "/docs/questions/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/questions/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Questions"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Connections",
+    "permalink": "/docs/connections/"
+  },
+  "next": {
+    "title": "Influences",
+    "permalink": "/docs/influences/"
+  }
+}

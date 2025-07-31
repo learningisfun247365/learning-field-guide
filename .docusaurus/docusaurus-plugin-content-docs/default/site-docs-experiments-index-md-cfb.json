@@ -1,0 +1,27 @@
+{
+  "id": "experiments/index",
+  "title": "Experiments",
+  "description": "Document things you're trying, prototypes, and learning experiments.",
+  "source": "@site/docs/experiments/index.md",
+  "sourceDirName": "experiments",
+  "slug": "/experiments/",
+  "permalink": "/docs/experiments/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/learningisfun247365/learning-field-guide/tree/main/docs/experiments/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Experiments"
+  },
+  "sidebar": "fieldGuideSidebar",
+  "previous": {
+    "title": "Learning Journal",
+    "permalink": "/docs/learning/"
+  },
+  "next": {
+    "title": "Reflections",
+    "permalink": "/docs/reflections/"
+  }
+}
