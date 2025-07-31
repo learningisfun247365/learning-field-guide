@@ -49,12 +49,12 @@ function HomepageContent() {
             </Link>
           </div>
           <div className="col col--4">
-            <Link to="/docs/learning/" className={styles.featureCard}>
+            <Link to="/digital-garden" className={styles.featureCard}>
               <div className="text--center padding-horiz--md">
-                <Heading as="h3">🌿 Ideas & Explorations</Heading>
+                <Heading as="h3">🌿 Digital Garden</Heading>
                 <p>
-                  Explore my learning journal, 
-                  experiments, and reflections in my digital garden.
+                  Explore my learning journal, experiments, and reflections - 
+                  thoughts and ideas growing over time.
                 </p>
               </div>
             </Link>
