@@ -16,25 +16,6 @@ function HomepageHeader() {
           Maria's Digital Garden
         </Heading>
         <p className="hero__subtitle">Learning in public, building in the open</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--primary button--lg"
-            to="/docs/intro">
-            Start Here
-          </Link>
-          <Link
-            className="button button--outline button--primary button--lg"
-            to="/docs/field-guide/"
-            style={{marginLeft: '1rem'}}>
-            Learning Field Guide
-          </Link>
-          <Link
-            className="button button--outline button--primary button--lg"
-            to="/docs/learning"
-            style={{marginLeft: '1rem'}}>
-            Ideas & Explorations
-          </Link>
-        </div>
       </div>
     </header>
   );
@@ -46,33 +27,37 @@ function HomepageContent() {
       <div className="container">
         <div className="row">
           <div className="col col--4">
-            <div className="text--center padding-horiz--md">
-              <Heading as="h3">🧭 Start Here</Heading>
-              <p>
-                New to L&D work or want to understand my approach? Begin with my
-                <Link to="/docs/first-principles"> First Principles</Link> and
-                <Link to="/docs/about-me"> background</Link>.
-              </p>
-            </div>
+            <Link to="/docs/about-me" className={styles.featureCard}>
+              <div className="text--center padding-horiz--md">
+                <Heading as="h3">🧭 Start Here</Heading>
+                <p>
+                  New to L&D work or want to understand my approach? Begin with my
+                  First Principles and background.
+                </p>
+              </div>
+            </Link>
           </div>
           <div className="col col--4">
-            <div className="text--center padding-horiz--md">
-              <Heading as="h3">🌱 Learning Field Guide</Heading>
-              <p>
-                Dive into the <Link to="/docs/field-guide/index">Field Guide to Learning</Link> and
-                practical <Link to="/docs/field-guide/thinking-models-ld">methodology</Link> for building programs.
-              </p>
-            </div>
+            <Link to="/docs/field-guide/" className={styles.featureCard}>
+              <div className="text--center padding-horiz--md">
+                <Heading as="h3">🌱 Learning Field Guide</Heading>
+                <p>
+                  Dive into the Field Guide to Learning and
+                  practical methodology for building programs.
+                </p>
+              </div>
+            </Link>
           </div>
           <div className="col col--4">
-            <div className="text--center padding-horiz--md">
-              <Heading as="h3">� Ideas & Explorations</Heading>
-              <p>
-                Explore my <Link to="/docs/learning">learning journal</Link>, 
-                <Link to="/docs/experiments"> experiments</Link>, and
-                <Link to="/docs/reflections"> reflections</Link> in my digital garden.
-              </p>
-            </div>
+            <Link to="/docs/learning/" className={styles.featureCard}>
+              <div className="text--center padding-horiz--md">
+                <Heading as="h3">🌿 Ideas & Explorations</Heading>
+                <p>
+                  Explore my learning journal, 
+                  experiments, and reflections in my digital garden.
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
