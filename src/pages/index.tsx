@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--primary button--lg"
-            to="/docs/field-guide/index"
+            to="/docs/field-guide/"
             style={{marginLeft: '1rem'}}>
             Learning Field Guide
           </Link>
