@@ -1,9 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/archive",
-  "source": "@site/src/pages/archive.md",
-  "title": "Field Guide Index",
-  "description": "A comprehensive index of all content in Maria's Field Guide",
-  "frontMatter": {},
-  "unlisted": false
-}
