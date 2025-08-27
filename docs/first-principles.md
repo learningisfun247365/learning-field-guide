@@ -1,10 +1,10 @@
 ---
 title: First Principles
 description: Core beliefs that guide my work and learning
-sidebar_position: 2
+sidebar_position: 3
 tags: [personal, philosophy, principles, foundation]
-date: 2025-07-27
-last_updated: 2025-07-27
+date: 2025-08-24
+last_updated: 2025-08-24
 ---
 
 # First Principles

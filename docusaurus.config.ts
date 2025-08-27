@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: "Maria's Field Guide",
-  tagline: 'Learning in public, building in the open',
+  tagline: 'A practical guide to learning and development',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -58,16 +58,15 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/field-guide-social-card.jpg',
     navbar: {
-      title: "Maria's Digital Garden",
+      title: "Maria's Field Guide",
       items: [
         {to: '/docs/about-me', label: 'About Me', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'fieldGuideSidebar',
           position: 'left',
-          label: 'Learning Field Guide',
+          label: 'Field Guide',
         },
-        {to: '/digital-garden', label: 'Digital Garden', position: 'left'},
         {href: 'https://github.com/learningisfun247365/learning-field-guide', label: 'GitHub', position: 'right'},
       ],
     },
@@ -79,32 +78,11 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/intro',
+              to: '/docs/field-guide-intro',
             },
             {
               label: 'First Principles',
               to: '/docs/first-principles',
-            },
-                          {
-                label: 'Index',
-                to: '/archive',
-              },
-          ],
-        },
-        {
-          title: 'Connect',
-          items: [
-            {
-              label: 'What I\'m Working On',
-              to: '/now',
-            },
-            {
-              label: 'About Me',
-              to: '/docs/about-me',
-            },
-            {
-              label: 'Projects',
-              to: '/docs/projects/coffee-and-t',
             },
             {
               label: 'Library',
@@ -113,20 +91,20 @@ const config: Config = {
           ],
         },
         {
-          title: 'Links',
+          title: 'About',
           items: [
+            {
+              label: 'About Me',
+              to: '/docs/about-me',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/learningisfun247365/learning-field-guide',
             },
-            {
-              label: 'Learning in Public',
-              to: '/docs/intro',
-            },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Maria's Field Guide. Learning in public, building in the open.`,
+      copyright: `© ${new Date().getFullYear()} Maria's Field Guide. A practical guide to learning and development.`,
     },
     prism: {
       theme: prismThemes.github,
